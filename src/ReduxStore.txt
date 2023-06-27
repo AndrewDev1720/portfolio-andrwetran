@@ -1,0 +1,13 @@
+// store.js
+import { configureStore } from "@reduxjs/toolkit";
+
+// Reducer
+const reducer = (state = {}, action) => {
+  // Handle actions here
+  return state;
+}
+
+// Create Redux store
+const ReduxStore = configureStore(reducer);
+
+export default ReduxStore;

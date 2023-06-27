@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Finador-Bold';
+  src: url('../../Asset/Finador/Finador-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Finador-Thin';
+  src: url('../../Asset/Finador/Finador-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Finador-Regular';
+  src: url('../../Asset/Finador/Finador-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FF-DIN-PRO';
+  src: url('../../Asset/FF-DIN/FF DIN Pro Black.ttf') format('truetype');
+}
+
+.header__icon:hover {
+  transition: fill 0.3s;
+  fill: red;
+}
+
+.header__icon {
+  padding-left: 13px;
+  padding-right: 13px;
+  cursor: pointer;
+}
+
+.parallelogram-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: skew(-20deg);
+  background-color: black;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.parallelogram-bg:hover {
+  background-color: red;
+}
