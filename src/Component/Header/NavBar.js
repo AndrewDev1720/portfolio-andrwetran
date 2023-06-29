@@ -100,6 +100,11 @@ const NavBar = (props) => {
       <Grid item sm = {5} sx={gridItemStyleEnd}>
         {items.map((item) => (
           <Link
+            key={item.id}
+            to={item.id}
+            spy={true}
+            smooth={true}
+            offset={-36}
             onMouseEnter={() => setHoveredLink(item.id)}
             onMouseLeave={() => setHoveredLink(null)} 
             style={{

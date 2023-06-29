@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { motion } from 'framer-motion';
 import { Typography, Grid, Box } from '@mui/material/';
 import myphoto from '../../Asset/Taq2.jpg';
-import "./Introduction.css";
+import "./AboutMe.css";
 import { FontColorContext } from  "../../App";
 const paragraph = {
   fontSize: '18px',
@@ -10,7 +10,7 @@ const paragraph = {
   width: '80%',
   fontFamily: 'Ubuntu, sans-serif'
 }
-const Introduction = () => {
+const AboutMe = () => {
   const fontColor = useContext(FontColorContext);
 
   return (
@@ -34,7 +34,8 @@ const Introduction = () => {
       sx={{
         maxWidth: '600px',
         margin: '10 auto',
-        backgroundColor: '#e5202b',
+        // backgroundColor: '#e5202b',
+        backgroundColor: '#0F6BA8',
         padding: '10px',
         clipPath: 'polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)'
       }}
@@ -55,4 +56,4 @@ const Introduction = () => {
   );
 }
 
-export default Introduction;
+export default AboutMe;

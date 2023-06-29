@@ -21,7 +21,7 @@ const ThemeSlider = styled(({ onThemeChange, ...props }) => {
 
   return <Switch {...props} checked={checked} onChange={handleChange} />;
 })(({ theme }) => ({
-  width: 62,
+  width: 70,
   height: 34,
   padding: 7,
   '& .MuiSwitch-switchBase': { 
@@ -30,7 +30,7 @@ const ThemeSlider = styled(({ onThemeChange, ...props }) => {
     transform: 'translateX(6px)',
     '&.Mui-checked': {
       color: '#fff',
-      transform: 'translateX(22px)',
+      transform: 'translateX(31px)',
       '& .MuiSwitch-thumb:before': {
         backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
           '#fff',
@@ -52,6 +52,7 @@ const ThemeSlider = styled(({ onThemeChange, ...props }) => {
       width: '100%',
       height: '100%',
       left: 0,
+      right: 0,
       top: 0,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',

@@ -1,6 +1,10 @@
-.header {
-  position: relative;
-  height: 100vh;
+.headerBackGround {
+  position: absolute;
+  height: 100vh; 
+  width: 100%;
+  /* background-color: #EDF9FE; */
+  background-color: #687377;
+  z-index: -2;
 }
 
 .header-video {
@@ -10,6 +14,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  clip-path: polygon(0px 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 30px);
 }
 
 #myVideo {
@@ -21,6 +26,7 @@
 .header-content {
   position: relative;
   height: 100vh;
+  text-align: center;
 }
 /* .header-video-overlay {
   position: absolute;
