@@ -7,14 +7,14 @@ import AboutMe from "./AboutMe";
 import { FontColorContext } from '../../App';
 const Header = (props) => {
   const fontColor = useContext(FontColorContext);
-  const headerBackGround = {
-    position: 'absolute',
-    height: '100vh', 
-    width: '100%',
-    /* background-color: #EDF9FE; */
-    backgroundColor: fontColor === 'white' ? '#687377' : '#EDF9FE',
-    zIndex: '-2',
-  }
+  // const headerBackGround = {
+  //   position: 'absolute',
+  //   height: '100vh', 
+  //   width: '100%',
+  //   backgroundColor: '#EDF9FE',
+  //   // backgroundColor: fontColor === 'white' ? '#151515' : 'white',
+  //   zIndex: '-2',
+  // }
 
   const classes = "header " + props.className;
   const [showLightVideo, setShowLightVideo] = useState(true);
@@ -29,7 +29,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <div style={headerBackGround}></div>
+      {/* <div style={headerBackGround}></div> */}
       <div className="header-video">
         <video
           autoPlay

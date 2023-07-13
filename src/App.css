@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+/* Change the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Change the background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Change the background color and border radius of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #e5202b;
+  border-radius: 10px;
+}
+
+/* Change the background color of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

@@ -1,9 +1,38 @@
 @font-face {
-  font-family: 'GoogleSans-Medium';
-  src: url('../../Asset/Google/GoogleSans-Medium.ttf') format('truetype');
+  font-family: "GoogleSans-Medium";
+  src: url("../../Asset/Google/GoogleSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Google-Sans-Bold';
-  src: url('../../Asset/Google/Google-Sans-Bold.ttf') format('truetype');
+  font-family: "Google-Sans-Bold";
+  src: url("../../Asset/Google/Google-Sans-Bold.ttf") format("truetype");
+}
+
+#running-text {
+  position: absolute;
+  top: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: running-text 10s linear infinite;
+}
+
+@keyframes running-text {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@font-face {
+  font-family: "FF-DIN-PRO-COND_BOLD";
+  src: url("../../Asset/FF-DIN/FF DIN Pro Cond Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Finador-Regular";
+  src: url("../../Asset/Finador/Finador-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FF-DIN-Pro-Medium";
+  src: url("../../Asset/FF-DIN/FF DIN Pro Medium.ttf") format("truetype");
 }

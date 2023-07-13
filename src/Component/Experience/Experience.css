@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'GoogleSans-Medium';
+  src: url('../../Asset/Google/GoogleSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Google-Sans-Bold';
+  src: url('../../Asset/Google/Google-Sans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FF-DIN-PRO-COND_BOLD';
+  src: url('../../Asset/FF-DIN/FF DIN Pro Cond Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Finador-Regular';
+  src: url('../../Asset/Finador/Finador-Regular.ttf') format('truetype');
+}

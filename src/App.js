@@ -5,6 +5,9 @@ import NavBar from "./Component/Header/NavBar";
 import Introduction from "./Component/Introduction/Introduction";
 import { Provider } from "react-redux";
 import React, { useState, createContext, useContext } from "react";
+import Experience from "./Component/Experience/Experience";
+import Project from "./Component/Project/Project";
+import Footer from "./Component/Footer/Footer";
 // import ReduxStore from "./ReduxStore";
 export const FontColorContext = createContext("black");
 function App() {
@@ -20,6 +23,9 @@ function App() {
           <h1>Hello World</h1>
         </ReactLearning> */}
         <Introduction />
+        <Experience/>
+        <Project/>
+        <Footer/>
       </div>
     </FontColorContext.Provider>
   );

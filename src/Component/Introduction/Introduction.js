@@ -1,15 +1,16 @@
 import React, { useState, useContext } from 'react';
 import { Container } from '@mui/material';
-import AboutMeContainer from './IntroContainer';
+import IntroContainer from './IntroContainer';
 import { motion } from "framer-motion";
 import { FontColorContext } from '../../App';
 const Introduction = (props) => {
   const fontColor = useContext(FontColorContext);
   const backGroundStyle={
     display: 'flex',
+    paddingTop: '50px',
     // backgroundColor: '#EDF9FE',
-    backgroundColor: fontColor === 'white' ? '#687377' : '#EDF9FE',
-    minHeight: '100vh',
+    // backgroundColor: fontColor === 'white' ? '#151515' : '#fbfbff',
+    backgroundColor: fontColor === 'white' ? '#0D0B0D' : '#FFFDFF',
     width: '100%',
   }
   return(
@@ -20,7 +21,9 @@ const Introduction = (props) => {
     viewport={{ once: true }}
     >
       <div style={backGroundStyle}>
-        <AboutMeContainer/>
+        <Container style={{padding: '0'}}>
+            <IntroContainer/>
+        </Container>
       </div>
     </motion.div>
   )

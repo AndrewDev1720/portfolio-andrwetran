@@ -4,6 +4,7 @@ import { Typography, Grid, Box } from '@mui/material/';
 import myphoto from '../../Asset/Taq2.jpg';
 import "./AboutMe.css";
 import { FontColorContext } from  "../../App";
+import CutCorners from './CutCorners';
 const paragraph = {
   fontSize: '18px',
   color: 'rgb(54,55,78)',
@@ -31,19 +32,21 @@ const AboutMe = () => {
         </Typography>
       </Grid>
       <Box
-      sx={{
-        maxWidth: '600px',
-        margin: '10 auto',
-        // backgroundColor: '#e5202b',
-        backgroundColor: '#0F6BA8',
-        padding: '10px',
-        clipPath: 'polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)'
-      }}
-    >
+        sx={{
+          maxWidth: '600px',
+          margin: '10 auto',
+          backgroundColor: '#F7F7FF',
+          borderRadius: '6px', 
+          // border: '1px solid #d0d7de',
+          // backgroundColor: '#6C63FF',
+          padding: '10px',
+          // clipPath: 'polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)'
+        }}
+      >
         <Typography
           sx={{
             fontWeight: 'bold',
-            color: 'white',
+            color: 'black',
             fontSize: '20px',
             fontFamily: 'Ubuntu, sans-serif',
             width: '100%'
@@ -52,6 +55,7 @@ const AboutMe = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
         </Typography>
       </Box>
+      {/* <CutCorners>Hello World </CutCorners> */}
     </Grid>
   );
 }

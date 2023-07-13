@@ -18,7 +18,7 @@ const Banner = () => {
       <img
         src={myphoto}
         style={{
-          marginTop: '40px',
+          marginTop: '100px',
           width: '300px',
           borderRadius: '50%',
         }}
