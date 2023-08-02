@@ -193,9 +193,9 @@ const IntroContainer = () => {
                 variants={textAnimation}
               >
                 <Typography sx={paragraph} align='left'>
-                Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora) sou o criador do eFront, um material de ensino de frontend pela internet.
-                Atualmente sou freelancer como Frontend Developer e UI Designer.
-                Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.
+                  The blend of logic and creativity in coding fuels my drive as a software engineer. As an explorer, I am constantly seeking innovation from new knowledge and skills to broaden my experience and career path. 
+                  Above all, making meaningful connections and taking fresh perspectives are what matter to me the most as my family, friends, and colleagues have laid the cornerstones for my identity and aspiration. 
+                  I hope to contribute to those in need and fulfill my role in the evolution cycle.
                 </Typography>
               </motion.div>
             </Grid>

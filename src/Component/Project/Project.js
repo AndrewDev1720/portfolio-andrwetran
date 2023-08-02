@@ -13,11 +13,18 @@ const Project = () => {
     paddingBottom: '96px'
   }
   return(
-    <div style={backgroundStyle}>
-      <div style={{marginLeft: '7%', marginRight: '7%'}}>
-        <ProjectContainer/>
+    <motion.div
+    id="projects"
+    initial={"offscreen"}
+    whileInView={"onscreen"}
+    viewport={{ once: true }}
+    >
+      <div style={backgroundStyle}>
+        <div style={{marginLeft: '7%', marginRight: '7%'}}>
+          <ProjectContainer/>
+        </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

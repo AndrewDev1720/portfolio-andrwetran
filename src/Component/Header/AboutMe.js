@@ -33,7 +33,7 @@ const AboutMe = () => {
       </Grid>
       <Box
         sx={{
-          maxWidth: '600px',
+          maxWidth: '750px',
           margin: '10 auto',
           backgroundColor: '#F7F7FF',
           borderRadius: '6px', 
@@ -52,7 +52,9 @@ const AboutMe = () => {
             width: '100%'
           }}
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          As a full-stack software engineer, curiosity is my driving force to explore the world and 
+          make meaningful connections along the way using technology. 
+          I hope my journey will make a positive impact on those who are in need.
         </Typography>
       </Box>
       {/* <CutCorners>Hello World </CutCorners> */}

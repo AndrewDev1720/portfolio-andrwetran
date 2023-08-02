@@ -17,13 +17,13 @@ const projects = [
     title: 'YouTube_Explorer',
     image: demoPhoto,
     skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'AJAX', 'API'],
-    description: 'A web application that displays stock information combining 5 Polygon API endpoints given user input. The program saves all search history to OpenStack and display it by date using SQL.'
+    description: 'Een webtoepassing die voorraadinformatie weergeeft die combineert op basis van gebruikersinvoer. Het programma slaat alle zoekgeschiedenis op in OpenStack en geeft deze op datum weer met behulp van SQL.'
   },
   { 
     title: 'Path_Finder',
     image: demoPhoto,
     skills: ['Bootstrap', 'Ruby on Rails', 'PostgreSQL'],
-    description: 'A web application inspired by GoodRead that allows users to save movies to WatchList. The website categorizes and shows movie information with other features such as user log-in and movie rating.',
+    description: 'Een webapplicatie geïnspireerd door Google Map waarmee gebruikers films kunnen opslaan in WatchList. De website categoriseert en toont filminformatie met andere functies zoals gebruikerslogin en filmbeoordeling.',
   },
   { 
     title: 'FaceBook_Simulator',
@@ -64,42 +64,31 @@ const ProjectContainer = () => {
   }
 
   return (
-    <motion.div
-      id="projects"
-      initial={"offscreen"}
-      whileInView={"onscreen"}
-      viewport={{ once: true }}
-      variants={animation}  
-    >
-      <div style={heading}>
-        <motion.div
-            whileHover={{ rotate: 180 }}
-          >
-            {/* <DashboardIcon sx={{ fontSize: '40px', color: 'rgb(68,69,97)' }}/> */}
-        </motion.div>
-        <Grid container direction = 'column'>
-          <Typography
-            sx={{
-              fontSize: '30px',
-              fontWeight: 'bold',
-              color: fontColor,
-              fontFamily: 'Ubuntu, sans-serif',
-              textAlign: 'center'
-            }}
-          >
-            My Projects
-          </Typography>
-          <hr style={{ width: '30%', marginTop: '10px', borderColor: '#e5202b' }} />
+      <div>
+        <div style={heading}>
+          <Grid container direction = 'column'>
+            <Typography
+              sx={{
+                fontSize: '30px',
+                fontWeight: 'bold',
+                color: fontColor,
+                fontFamily: 'Ubuntu, sans-serif',
+                textAlign: 'center'
+              }}
+            >
+              My Projects
+            </Typography>
+            <hr style={{ width: '30%', marginTop: '10px', borderColor: '#e5202b' }} />
+          </Grid>
+        </div>
+        <Grid container spacing={5} >
+          {projects.map((project, index) => (
+            <Grid item xs={6} key={index}>
+              <ProjectCard project={project} />
+            </Grid>
+          ))}
         </Grid>
       </div>
-      <Grid container spacing={5} >
-        {projects.map((project, index) => (
-          <Grid item xs={6} key={index}>
-            <ProjectCard project={project} />
-          </Grid>
-        ))}
-      </Grid>
-    </motion.div>
   );
 };
 

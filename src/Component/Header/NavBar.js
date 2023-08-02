@@ -1,13 +1,11 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { AppBar, Toolbar, Grid, MenuItem} from '@mui/material/';
-import myLogo from '../../Asset/Spades.jpg';
-import myLogo2 from '../../Asset/Logo2.jpg';
-import myLogo3 from '../../Asset/Logo3.jpg';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-scroll';
 import SvgIcon from './SvgIcon';
-import { ReactComponent as DevSvg } from '../../Asset/Dev_Icon.svg';
-import { ReactComponent as LinkedInSvg } from '../../Asset/LinkedIn.svg';
-import { ReactComponent as GitHubSvg } from '../../Asset/GitHub.svg';
+import LogoDevIcon from '@mui/icons-material/LogoDev';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import IconButton from '@mui/material/IconButton';
 import { ReactComponent as DiscordSvg } from '../../Asset/Discord.svg';
 import "./navBar.css";
 import ThemeSlider from '../Slider/ThemeSlider';
@@ -84,23 +82,30 @@ const NavBar = (props) => {
     fontSize: '1rem',
     fontWeight: 'bold',
   }
+  const iconButtonStyle={
+    color: fontColor,     
+    ':hover': {
+      color: 'red',
+      fill: 'red',
+    }
+  }
   return (
     <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 2, backgroundColor: scrollPosition > 0 ? reverseFontColor : 'transparent', transition: 'background-color 0.4s ease'}}>
       <Grid container sx={containerStyle}>
         <Grid item md={5} sm={6} sx={gridItemStyleStart}>
           <ThemeSlider onThemeChange={props}/>
-          <SvgIcon class="header__icon" width="30" height="30">
-            <LinkedInSvg />
-          </SvgIcon>
-          <SvgIcon class="header__icon" width="30" height="30">
-            <GitHubSvg />
-          </SvgIcon>
-          <SvgIcon class="header__icon">
-            <DevSvg width="30" height="30"/>
-          </SvgIcon>
-          <SvgIcon class="header__icon" width="30" height="30">
-            <DiscordSvg />
-          </SvgIcon>
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://www.linkedin.com/in/tran-anh-quan/" target="_blank">
+            <LinkedInIcon sx={{ fontSize: '30px' }}/>
+          </IconButton>
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/andrewdev1720/" target="_blank">
+            <GitHubIcon sx={{ fontSize: '30px' }}/>
+          </IconButton>
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/andrewdev1720/" target="_blank">
+            <LogoDevIcon sx={{ fontSize: '30px' }}/>
+          </IconButton>
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://discord.gg/8BEPYQ7m" target="_blank">
+            <DiscordSvg sx={{ fontSize: '30px' }}/>
+          </IconButton>
         </Grid>
         <Grid item md={2} sm={0} sx={gridMiddleStyle}>
           <div style={parallelogram_bg}>
@@ -114,7 +119,7 @@ const NavBar = (props) => {
               to={item.id}
               spy={true}
               smooth={true}
-              offset={-36}
+              offset={-30}
               onMouseEnter={() => setHoveredLink(item.id)}
               onMouseLeave={() => setHoveredLink(null)}
               style={{

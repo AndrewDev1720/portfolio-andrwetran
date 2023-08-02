@@ -12,9 +12,17 @@ const Experience = () => {
     width: '100%',
   }
   return(
-    <div style={backGroundStyle}>
-      <ExperienceContainer/>
-    </div>
+    <motion.div
+    id="experience"
+    initial={"offscreen"}
+    whileInView={"onscreen"}
+    viewport={{ once: true }}
+    offset={-50}
+    >
+      <div style={backGroundStyle}>
+        <ExperienceContainer/>
+      </div>
+    </motion.div>
   )
 }
 export default Experience;
