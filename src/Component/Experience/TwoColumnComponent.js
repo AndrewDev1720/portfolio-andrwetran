@@ -6,10 +6,22 @@ const TwoColumnComponent = (props) => {
   const fontColor = useContext(FontColorContext);
   const reverseFontColor = fontColor === 'white' ? 'black' : 'white'
   const experienceData = [
-    { name: 'FPT Software Corp', title: 'Software Engineer Intern', duration: 'May 2023 - Present (2 months)', description: 'Trabalhei como instrutor conteudista em frontend na Digital House, o trabalho consistia em criar conteúdos para as aulas de especialização frontend. Alguns temas dos conteúdos realizados foram: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI, React Hook Form e styled-components.'},
-    { name: 'Rakuna Inc', title: 'Software Engineer Intern', duration: 'May 2022 - Dec 2022 (6 months)', description: 'expTrabalhei como Social Media e Designer na Zuplae que é um escola de programação, onde teve como foco as criações de conteúdos sobre programação para a comunidade dev através das redes sociais.erience'},
-    { name: 'University Technology', title: 'Academic Mentor', duration: 'Jan 2022 - Sep 2022 (8 months)', description: 'Realizei o estágio na ContWeb, uma empresa de contabilidade. Onde pela primeira vez tive experiência com o React. Além do desenvolvimento frontend criei os designs da nova plataforma da empresa.'},
-    { name: 'Self Learner', title: 'Explorer', description: 'Trabalhei como Social Media e Designer no Código Fonte TV, onde teve como foco as criações de conteúdos sobre programação para a comunidade dev através das redes sociais.'},
+    { name: 'FPT Software Corp', 
+      title: 'Software Engineer Intern', 
+      duration: 'May 2023 - Present (3 months)', 
+      description: 'Revamped Front API with batch REST endpoints, slashing inter-service server requests, and optimizing user queries, UI data flow, and database interactions. Automated API checks and testing across production/non-production using Postman. Enhanced Java Spring Boot cart updater for Starhub Online Store, enabling REST API support and Oracle SQL integration for upstream team.'},
+    { name: 'Rakuna Inc', 
+      title: 'Software Engineer Intern', 
+      duration: 'May 2022 - Dec 2022 (6 months)', 
+      description: 'Collaborated on CRM release with Designer and Tester with Agile workflow, Confluence, Jira, and Bitbucket. Restructured Interview Scheduling emails with Ruby and Javascript. Enhanced mailer MVC model for scalability via modular programming and RESTful APIs using SendGrid, Sidekiq, and Redis. Revamped Form Validation, optimized Prospect search with ReactJS, Yup, and ElasticSearch'},
+    { name: 'University Technology', 
+      title: 'Academic Mentor', 
+      duration: 'Jan 2022 - Sep 2022 (8 months)', 
+      description: 'Engaged in one-on-one Java OOP & Data Structures tutoring sessions, driving grade enhancements of 15% to 25% among students. Simultaneously, partnered with faculty to craft personalized coursework, leading to a 18% increase in the retention rate of at-risk students.'},
+    { name: 'Self Learner', 
+      title: 'Explorer', 
+      duration: 'July 2002 - ∞',
+      description: "Embark on a thrilling life journey, where learning never stops. Adapt and acquire fresh skills, while forging meaningful connections and sharing stories along the way. I'm glad you are here with me!"},
   ];
   const options = experienceData;
   const [selected, setSelect] = useState(options[0]);

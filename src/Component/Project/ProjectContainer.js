@@ -16,8 +16,8 @@ const projects = [
   { 
     title: 'YouTube_Explorer',
     image: demoPhoto,
-    skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'AJAX', 'API'],
-    description: 'Een webtoepassing die voorraadinformatie weergeeft die combineert op basis van gebruikersinvoer. Het programma slaat alle zoekgeschiedenis op in OpenStack en geeft deze op datum weer met behulp van SQL.'
+    skills: ['PHP', 'HTML', 'CSS', 'Javascript', 'JQuery', 'AJAX', 'API'],
+    description: 'Engineered a dynamic website enabling smooth downloads of YouTube content in various formats like mp4, mp3, m4a, and webm, offering users the convenience of offline access and the freedom to enjoy their favorite videos on their terms.'
   },
   { 
     title: 'Path_Finder',

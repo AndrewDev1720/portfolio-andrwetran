@@ -150,7 +150,7 @@ const IntroContainer = () => {
                 allowFullScreen
                 style={{
                   position: "absolute",
-                  marginLeft: '32.5%',
+                  marginLeft: '32.4%',
                   marginTop: '28.15%',
                   zIndex: "1",
                   borderRadius: "2%",
@@ -195,7 +195,7 @@ const IntroContainer = () => {
                 <Typography sx={paragraph} align='left'>
                   The blend of logic and creativity in coding fuels my drive as a software engineer. As an explorer, I am constantly seeking innovation from new knowledge and skills to broaden my experience and career path. 
                   Above all, making meaningful connections and taking fresh perspectives are what matter to me the most as my family, friends, and colleagues have laid the cornerstones for my identity and aspiration. 
-                  I hope to contribute to those in need and fulfill my role in the evolution cycle.
+                  I hope to contribute to those in need and fulfill my role in the evolution cycle. I'd love to hear your stories!
                 </Typography>
               </motion.div>
             </Grid>
