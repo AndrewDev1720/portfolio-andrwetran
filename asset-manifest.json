@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-andrwetran/static/css/main.df36b0aa.css",
-    "main.js": "/portfolio-andrwetran/static/js/main.55fb9fd5.js",
+    "main.js": "/portfolio-andrwetran/static/js/main.82a458a9.js",
     "static/js/787.fb771931.chunk.js": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js",
     "static/media/Finador-Bold.ttf": "/portfolio-andrwetran/static/media/Finador-Bold.c76d338be27351457022.ttf",
     "static/media/Finador-Regular.ttf": "/portfolio-andrwetran/static/media/Finador-Regular.407fe55b080cc4a37c6c.ttf",
@@ -23,11 +23,11 @@
     "static/media/GitHub2.svg": "/portfolio-andrwetran/static/media/GitHub2.7831eb78a47e9f314e3c1dd4b2c4aa66.svg",
     "index.html": "/portfolio-andrwetran/index.html",
     "main.df36b0aa.css.map": "/portfolio-andrwetran/static/css/main.df36b0aa.css.map",
-    "main.55fb9fd5.js.map": "/portfolio-andrwetran/static/js/main.55fb9fd5.js.map",
+    "main.82a458a9.js.map": "/portfolio-andrwetran/static/js/main.82a458a9.js.map",
     "787.fb771931.chunk.js.map": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df36b0aa.css",
-    "static/js/main.55fb9fd5.js"
+    "static/js/main.82a458a9.js"
   ]
 }
