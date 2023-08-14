@@ -23,7 +23,7 @@ const projects = [
     title: 'Path_Finder',
     image: demoPhoto,
     skills: ['Bootstrap', 'Ruby on Rails', 'PostgreSQL'],
-    description: 'Een webapplicatie geïnspireerd door Google Map waarmee gebruikers films kunnen opslaan in WatchList. De website categoriseert en toont filminformatie met andere functies zoals gebruikerslogin en filmbeoordeling.',
+    description: "Developed the 'Paths Finder' Java application, which translates text-based 2-D map descriptions into weighted cycle and directed acyclic graphs. Applied Dijkstra's algorithm to calculate the nth shortest path between specified points, offering users optimal routes. Integrated Yen’s algorithm to simulate Google Map-like services, enhancing the application's functionality.",
   },
   { 
     title: 'FaceBook_Simulator',
