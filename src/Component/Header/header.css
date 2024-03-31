@@ -52,4 +52,9 @@
 
 .header-video .header-video-active {
   opacity: 1;
+  filter: invert(100%);
+}
+
+.header-video .header-video-non-active {
+  opacity: 1;
 }

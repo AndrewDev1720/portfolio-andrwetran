@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Banner from "./Banner";
 import AboutMe from "./AboutMe";
 import { FontColorContext } from '../../App';
+import lightVideo from '../../Asset/Video/light_video.mp4'
 const Header = (props) => {
   const fontColor = useContext(FontColorContext);
   // const headerBackGround = {
@@ -36,10 +37,10 @@ const Header = (props) => {
           muted
           loop
           id="myVideo"
-          className={showLightVideo ? "header-video-active" : ""}
+          className={showLightVideo ? "header-video-non-active" : ""}
         >
           <source
-            src="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/video-bg-light.mp4"
+            src={lightVideo}
             type="video/mp4"
           />
         </video>
@@ -51,7 +52,7 @@ const Header = (props) => {
           className={!showLightVideo ? "header-video-active" : ""}
         >
           <source
-            src="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/video-bg-dark.mp4"
+            src={lightVideo}
             type="video/mp4"
           />
         </video>
