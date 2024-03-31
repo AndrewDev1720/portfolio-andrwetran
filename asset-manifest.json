@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-andrwetran/static/css/main.df36b0aa.css",
-    "main.js": "/portfolio-andrwetran/static/js/main.6d189b33.js",
+    "main.css": "/portfolio-andrwetran/static/css/main.03d18376.css",
+    "main.js": "/portfolio-andrwetran/static/js/main.e588eaa6.js",
     "static/js/787.fb771931.chunk.js": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js",
+    "static/media/light_video.mp4": "/portfolio-andrwetran/static/media/light_video.c047515e11d1dd4200ca.mp4",
     "static/media/Finador-Bold.ttf": "/portfolio-andrwetran/static/media/Finador-Bold.c76d338be27351457022.ttf",
     "static/media/Finador-Regular.ttf": "/portfolio-andrwetran/static/media/Finador-Regular.407fe55b080cc4a37c6c.ttf",
     "static/media/Finador-Thin.ttf": "/portfolio-andrwetran/static/media/Finador-Thin.46e2d8ad5b0dbc5083b5.ttf",
@@ -22,12 +23,12 @@
     "static/media/Discord.svg": "/portfolio-andrwetran/static/media/Discord.b8f141155f04ace985229597b89c9e00.svg",
     "static/media/GitHub2.svg": "/portfolio-andrwetran/static/media/GitHub2.7831eb78a47e9f314e3c1dd4b2c4aa66.svg",
     "index.html": "/portfolio-andrwetran/index.html",
-    "main.df36b0aa.css.map": "/portfolio-andrwetran/static/css/main.df36b0aa.css.map",
-    "main.6d189b33.js.map": "/portfolio-andrwetran/static/js/main.6d189b33.js.map",
+    "main.03d18376.css.map": "/portfolio-andrwetran/static/css/main.03d18376.css.map",
+    "main.e588eaa6.js.map": "/portfolio-andrwetran/static/js/main.e588eaa6.js.map",
     "787.fb771931.chunk.js.map": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df36b0aa.css",
-    "static/js/main.6d189b33.js"
+    "static/css/main.03d18376.css",
+    "static/js/main.e588eaa6.js"
   ]
 }
