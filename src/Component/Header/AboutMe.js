@@ -52,9 +52,8 @@ const AboutMe = () => {
             width: '100%'
           }}
         >
-          As a full-stack software engineer, curiosity is my driving force to explore the world and 
-          make meaningful connections along the way using technology. 
-          I hope my journey will make a positive impact on those who are in need.
+          As a full-stack software engineer, my drive comes from seeing how technology bridges industry gaps and reshapes our world.
+          I'm passionate about using software to innovate, streamline, and open new paths for growth and opportunity, aiming to make a significant impact where it's most needed.
         </Typography>
       </Box>
       {/* <CutCorners>Hello World </CutCorners> */}
