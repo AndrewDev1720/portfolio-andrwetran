@@ -1,34 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-andrwetran/static/css/main.03d18376.css",
-    "main.js": "/portfolio-andrwetran/static/js/main.e588eaa6.js",
+    "main.css": "/portfolio-andrwetran/static/css/main.c0c23ff0.css",
+    "main.js": "/portfolio-andrwetran/static/js/main.007bb292.js",
     "static/js/787.fb771931.chunk.js": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js",
     "static/media/light_video.mp4": "/portfolio-andrwetran/static/media/light_video.c047515e11d1dd4200ca.mp4",
     "static/media/Finador-Bold.ttf": "/portfolio-andrwetran/static/media/Finador-Bold.c76d338be27351457022.ttf",
     "static/media/Finador-Regular.ttf": "/portfolio-andrwetran/static/media/Finador-Regular.407fe55b080cc4a37c6c.ttf",
     "static/media/Finador-Thin.ttf": "/portfolio-andrwetran/static/media/Finador-Thin.46e2d8ad5b0dbc5083b5.ttf",
     "static/media/Taq2.jpg": "/portfolio-andrwetran/static/media/Taq2.6c4f186a94deefbc4860.jpg",
-    "static/media/SnapAvatar.jpg": "/portfolio-andrwetran/static/media/SnapAvatar.2d363bf123f8831530e7.jpg",
     "static/media/Google-Sans-Bold.ttf": "/portfolio-andrwetran/static/media/Google-Sans-Bold.7491fc730ffd70a642f8.ttf",
     "static/media/FF DIN Pro Black.ttf": "/portfolio-andrwetran/static/media/FF DIN Pro Black.7459ff685487776a3afa.ttf",
     "static/media/FF DIN Pro Medium.ttf": "/portfolio-andrwetran/static/media/FF DIN Pro Medium.c3fe8ebd7a290f298ac1.ttf",
     "static/media/FF DIN Pro Cond Bold Italic.ttf": "/portfolio-andrwetran/static/media/FF DIN Pro Cond Bold Italic.41923bfeaf1f4cfbf910.ttf",
     "static/media/FF DIN Pro Cond Bold.ttf": "/portfolio-andrwetran/static/media/FF DIN Pro Cond Bold.df3f815a77dc5a0b25ec.ttf",
-    "static/media/CWRU.jpg": "/portfolio-andrwetran/static/media/CWRU.9780b1b89c50cc47ac46.jpg",
-    "static/media/CWRU.svg": "/portfolio-andrwetran/static/media/CWRU.eb9f11c5ffb45deb8f427b7517d4a854.svg",
     "static/media/GoogleSans-Medium.ttf": "/portfolio-andrwetran/static/media/GoogleSans-Medium.5512e43087badbce5c89.ttf",
     "static/media/IntroSvg2.svg": "/portfolio-andrwetran/static/media/IntroSvg2.904e1909f60e01fb606d43598c4a79f1.svg",
-    "static/media/Spartan.svg": "/portfolio-andrwetran/static/media/Spartan.38a13bc006c7af926f402de607ea9a50.svg",
-    "static/media/logo.svg": "/portfolio-andrwetran/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/Discord.svg": "/portfolio-andrwetran/static/media/Discord.b8f141155f04ace985229597b89c9e00.svg",
     "static/media/GitHub2.svg": "/portfolio-andrwetran/static/media/GitHub2.7831eb78a47e9f314e3c1dd4b2c4aa66.svg",
     "index.html": "/portfolio-andrwetran/index.html",
-    "main.03d18376.css.map": "/portfolio-andrwetran/static/css/main.03d18376.css.map",
-    "main.e588eaa6.js.map": "/portfolio-andrwetran/static/js/main.e588eaa6.js.map",
+    "main.c0c23ff0.css.map": "/portfolio-andrwetran/static/css/main.c0c23ff0.css.map",
+    "main.007bb292.js.map": "/portfolio-andrwetran/static/js/main.007bb292.js.map",
     "787.fb771931.chunk.js.map": "/portfolio-andrwetran/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d18376.css",
-    "static/js/main.e588eaa6.js"
+    "static/css/main.c0c23ff0.css",
+    "static/js/main.007bb292.js"
   ]
 }
