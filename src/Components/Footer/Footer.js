@@ -35,7 +35,9 @@ const Footer = () => {
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', color: fontColor, paddingBottom: '10px'}}>
         <div style ={{width: '50%', textAlign: 'center'}}>
-            Let me know more about you. It is always fascinating to see how two consciousness sharing their own version of narrative & dictionary. Checkout some of these tracks
+        Let me know more about you.
+        It’s always fascinating to see how two consciousnesses share their narratives and the profound dictionaries they’ve crafted to make sense of their respective surroundings.
+            Checkout some of these tracks
         </div>
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
