@@ -114,14 +114,15 @@ const AboutMe = () => {
                 width: '100%',
               }}
             >
-              Hi, this is my portfolio. I am a rising senior interested in CS, hungry to make measurable contributions.
-              I enjoy the concept of understanding!
+                Hi, this is my portfolio. 
+                I am a rising senior interested in CS, hungry to make measurable contributions. 
+                I enjoy the concept of understanding. 
               {showFullText ? (
                 <>
-                  {" "}That's why I love listening, reading, and watching works on consciousness, like everyone else.
+                  {" "}That's why I love listening, reading, and watching creations of consciousness, like everybody else.
                   The more I understand the message conveyed, the more I believe I have a role to fulfill.
                   And on my way to figuring out that role, I see my knowledge, skillset, and commitment fulfilling the role of a builder, part of an organization with an impactful, initiative-driven mindset.
-                  And of course, here are some of my favorite minds whose work I admire: Thom Yorke, Roger Waters, Andy Weir, Hammock, Dan Harmon, Neil deGrasse Tyson, Steve Jobs, James Gosling, 
+                  And of course, here are some of my favorite minds whose work I enjoy a lot: Thom Yorke, Roger Waters, Andy Weir, Hammock, Dan Harmon, Neil deGrasse Tyson, Steve Jobs, James Gosling, 
                   Albert Einstein, Alan Turing, Aristotle, Albert Hoffman. (I am in the process refactoring my portfolio, so many of the parts below haven't been updated)
                 </>
               ) : (
