@@ -1,13 +1,9 @@
-import Header from "./Component/Header/Header";
-import Banner from "./Component/Header/Banner";
-import ReactLearning from "./Component/ReactLearning";
-import NavBar from "./Component/Header/NavBar";
-import Introduction from "./Component/Introduction/Introduction";
-import { Provider } from "react-redux";
-import React, { useState, createContext, useContext } from "react";
-import Experience from "./Component/Experience/Experience";
-import Project from "./Component/Project/Project";
-import Footer from "./Component/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Introduction from "./Components/Introduction/Introduction";
+import React, { useState, createContext } from "react";
+import Experience from "./Components/Experience/Experience";
+import Project from "./Components/Project/Project";
+import Footer from "./Components/Footer/Footer";
 // import ReduxStore from "./ReduxStore";
 export const FontColorContext = createContext("black");
 function App() {

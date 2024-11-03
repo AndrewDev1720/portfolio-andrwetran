@@ -1,9 +1,7 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { motion } from "framer-motion";
+import React, { useContext } from 'react';
 import ProjectCard from './ProjectCard';
-import { Grid, Typography, Chip } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import demoPhoto from '../../Asset/University.png'
-import DashboardIcon from '@mui/icons-material/Dashboard';
 import { FontColorContext } from '../../App';
 
 const projects = [

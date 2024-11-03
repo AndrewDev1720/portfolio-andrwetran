@@ -1,21 +1,10 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { motion } from "framer-motion";
 import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-import ModeIcon from '@mui/icons-material/Mode';
-import SchoolIcon from '@mui/icons-material/School';
-import Face2Icon from '@mui/icons-material/Face2';
-import myPhoto from '../../Asset/SnapAvatar.jpg';
-import cwruPhoto from '../../Asset/CWRU.jpg'
-import uniImg from '../../Asset/University.png'
 import { ReactComponent as IntroSvg } from '../../Asset/IntroSvg2.svg';
-import { ReactComponent as CwruSvg } from '../../Asset/CWRU.svg';
 import { FontColorContext } from '../../App';
-import { ReactComponent as SpartanSvg } from '../../Asset/Spartan.svg';
 import "./IntroductionContainer.css";
-import YouTubePlayer from './YouTubePlayer';
 
 const IntroContainer = () => {
   const fontColor = useContext(FontColorContext);
@@ -33,17 +22,17 @@ const IntroContainer = () => {
     paddingTop: '20px',
     paddingBottom: '80px',
   }
-  const infoRow = {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '10px',
-  }
-  const info = {
-    fontSize: '20px',
-    fontWeight: 'bold',
-    color: fontColor,
-    fontFamily: 'GoogleSans-Medium',
-  }
+  // const infoRow = {
+  //   display: 'flex',
+  //   alignItems: 'center',
+  //   gap: '10px',
+  // }
+  // const info = {
+  //   fontSize: '20px',
+  //   fontWeight: 'bold',
+  //   color: fontColor,
+  //   fontFamily: 'GoogleSans-Medium',
+  // }
   const paragraph = {
     fontSize: '18px',
     color: fontColor === 'white' ? 'white' : '#3F3D56',
@@ -78,17 +67,17 @@ const IntroContainer = () => {
     border: '2px solid #e8e8f0',
     // clipPath: 'polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)'
   }
-  const circleStyle = {
-    height: "44px",
-    width: "44px",
-    boxShadow: "5px 5px 5px #d9dbdf",
-    borderRadius: "50%",
-    border: "1px solid #d9dbdf",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "white"
-  }
+  // const circleStyle = {
+  //   height: "44px",
+  //   width: "44px",
+  //   boxShadow: "5px 5px 5px #d9dbdf",
+  //   borderRadius: "50%",
+  //   border: "1px solid #d9dbdf",
+  //   display: "flex",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  //   backgroundColor: "white"
+  // }
   
   return (
     <div>

@@ -1,10 +1,7 @@
-import React, { useState, useContext } from 'react';
-import { Container } from '@mui/material';
+import React, { useContext } from 'react';
 import { motion } from "framer-motion";
 import { FontColorContext } from '../../App';
-import ProjectCard from './ProjectCard';
 import ProjectContainer from './ProjectContainer';
-import { Diversity1 } from '@mui/icons-material';
 const Project = () => {
   const fontColor = useContext(FontColorContext);
   const backgroundStyle={

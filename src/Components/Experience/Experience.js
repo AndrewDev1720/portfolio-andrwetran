@@ -1,5 +1,4 @@
-import React, { useState, useContext } from 'react';
-import { Container } from '@mui/material';
+import React, { useContext } from 'react';
 import { motion } from "framer-motion";
 import { FontColorContext } from '../../App';
 import ExperienceContainer from './ExperienceContainer';

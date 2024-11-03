@@ -1,10 +1,9 @@
 import React, { useState, useContext } from 'react';
-import {Grid, Container} from '@mui/material';
+import {Grid} from '@mui/material';
 import "./Experience.css";
 import { FontColorContext } from '../../App';
-const TwoColumnComponent = (props) => {
+const TwoColumnComponent = () => {
   const fontColor = useContext(FontColorContext);
-  const reverseFontColor = fontColor === 'white' ? 'black' : 'white'
   const experienceData = [
     { name: 'FPT Software Corp', 
       title: 'Software Engineer Intern', 

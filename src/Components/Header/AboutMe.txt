@@ -1,16 +1,13 @@
-import React, { useState, useContext } from 'react';
-import { motion } from 'framer-motion';
+import React, { useContext } from 'react';
 import { Typography, Grid, Box } from '@mui/material/';
-import myphoto from '../../Asset/Taq2.jpg';
 import "./AboutMe.css";
 import { FontColorContext } from  "../../App";
-import CutCorners from './CutCorners';
-const paragraph = {
-  fontSize: '18px',
-  color: 'rgb(54,55,78)',
-  width: '80%',
-  fontFamily: 'Ubuntu, sans-serif'
-}
+// const paragraph = {
+//   fontSize: '18px',
+//   color: 'rgb(54,55,78)',
+//   width: '80%',
+//   fontFamily: 'Ubuntu, sans-serif'
+// }
 const AboutMe = () => {
   const fontColor = useContext(FontColorContext);
 

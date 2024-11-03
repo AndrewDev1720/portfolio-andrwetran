@@ -1,8 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { AppBar, Toolbar, Grid, MenuItem} from '@mui/material/';
+import { Grid} from '@mui/material/';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-scroll';
-import SvgIcon from './SvgIcon';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';

@@ -1,5 +1,4 @@
-import React, { useState, useContext } from 'react';
-import { motion } from "framer-motion";
+import React, { useContext } from 'react';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import IconButton from '@mui/material/IconButton';
@@ -7,10 +6,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
   import LogoDevIcon from '@mui/icons-material/LogoDev';
-import {Spotify} from 'react-spotify-embed';
 import { FontColorContext } from  "../../App";
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
 import { ReactComponent as DiscordSvg } from '../../Asset/Discord.svg';
 const Footer = () => {
   const fontColor = useContext(FontColorContext);
@@ -38,15 +34,21 @@ const Footer = () => {
           </IconButton> */}
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', color: fontColor, paddingBottom: '10px'}}>
-        <div style ={{width: '40%', textAlign: 'center'}}>
-        I'm open for any job opportunities, and my inbox will always be open for you.
-        Checkout my fav song!
+        <div style ={{width: '50%', textAlign: 'center'}}>
+            Let me know more about you. It is always fascinating to see how two consciousness sharing their own version of narrative & dictionary. Checkout some of these tracks
         </div>
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <div style={{width: '30%', height: '100px'}}>
-          <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/track/4IhKLu7Vk3j2TLmnFPl6To?utm_source=generator&theme=0" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
+      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/3AJwUDP919kvQ9QcozQPxg?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/3bXH9y487cnLfA6VWXefaB?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/07qhJwWDX3HEzuuY55x3P4?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+
       </Grid>
       <Grid item>
         <div style={{ textAlign: "center" }}>
@@ -93,7 +95,7 @@ const Footer = () => {
               color: fontColor,
               fill: fontColor
             }}
-            href="mailto:andrewtran@gmail.com"
+            href="mailto:qat3@case.edu"
           >
             <DiscordSvg sx={{ fontSize: '30px' }}/>
           </IconButton>

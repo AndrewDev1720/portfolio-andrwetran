@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { Typography, Grid, Box } from '@mui/material/';
 import myphoto from '../../Asset/Taq2.jpg';
 
 const Banner = () => {

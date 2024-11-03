@@ -4,15 +4,13 @@ import { motion } from "framer-motion"
 import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
-import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
 import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
-import LaunchIcon from '@mui/icons-material/Launch';
 import { FontColorContext } from '../../App';
 import GithubButton from './GithubButton';
 
 const ProjectCard = (props) => {
   const { project } = props;
-  const [hovered, setHovered] = useState(false);
+  // const [hovered, setHovered] = useState(false);
   const fontColor = useContext(FontColorContext);
   return (
     <motion.div

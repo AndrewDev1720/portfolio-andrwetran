@@ -1,13 +1,11 @@
-import { React, useState, useContext } from "react";
+import { React, useState } from "react";
 import "./header.css";
-import { motion } from "framer-motion";
 import NavBar from "./NavBar";
 import Banner from "./Banner";
 import AboutMe from "./AboutMe";
-import { FontColorContext } from '../../App';
 import lightVideo from '../../Asset/Video/light_video.mp4'
 const Header = (props) => {
-  const fontColor = useContext(FontColorContext);
+  // const fontColor = useContext(FontColorContext);
   // const headerBackGround = {
   //   position: 'absolute',
   //   height: '100vh', 
@@ -17,7 +15,7 @@ const Header = (props) => {
   //   zIndex: '-2',
   // }
 
-  const classes = "header " + props.className;
+  // const classes = "header " + props.className;
   const [showLightVideo, setShowLightVideo] = useState(true);
 
   const handleThemeChange = (color) => {
