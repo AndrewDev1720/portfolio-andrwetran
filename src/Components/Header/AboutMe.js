@@ -48,6 +48,7 @@ const AboutMe = () => {
         maxWidth: '1000px',      // Increase max width for the component as a whole
         // width: '90%',            // Set a percentage width for responsive sizing
         margin: '0 auto',        // Center the Grid container horizontally
+
       }}>
       {/* Name remains visible */}
       <Grid item>
@@ -278,7 +279,7 @@ const AboutMe = () => {
             >
               It’s sometimes amusing to look back and see how much we've changed.
               What you are reading above is a piece of text with little to no presence of character or identity.
-              In the midst of polished, professional words is a humble realization about the role of software and technology — efficiently performing physical & manual tasks digitally.
+              In the midst of polished, professional words is a humble realization about the role of software and technology — efficiently performing manual tasks digitally along with connecting demands and supplies everywhere.
               Even that simple idea is masked with flashy words for a portfolio.
             </Box>
           </>
